@@ -75,7 +75,7 @@ JSON Decoding (Codable)
 List & Section layouts
 
 
- File Structure
+ File Structure:
  
 ContentView.swift
 
