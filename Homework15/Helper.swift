@@ -25,18 +25,31 @@
  
  Each of option navigates to a new sheet
  
- Homework15App.swift
+ Helper.swift
 
  */
 
+ 
 
-import SwiftUI
 
-@main
-struct Homework15App: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+
+
+
+
+
+import Foundation
+
+extension Bundle {
+    func decode<T: Decodable>(_ file: String) -> T {
+        guard let url = url(forResource: file, withExtension: nil) else {
+            fatalError("Could not find \(file) in bundle.")
         }
+        guard let data = try? Data(contentsOf: url) else {
+            fatalError("Could not load \(file) from bundle.")
+        }
+        guard let decoded = try? JSONDecoder().decode(T.self, from: data) else {
+            fatalError("Could not decode \(file).")
+        }
+        return decoded
     }
 }

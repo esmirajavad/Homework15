@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Halloween",
+    "image": "halloween",
+    "about": "Halloween is celebrated every October 31. It’s a fun night of costumes, jack-o’-lanterns, and spooky decorations. Families and friends often go trick-or-treating, host costume parties, and enjoy sweet treats like candy corn and pumpkin desserts. It’s a time for creativity, laughter, and a little bit of fright.",
+    "funFact": "The idea of carving jack-o’-lanterns comes from an old Irish tale about a man named Stingy Jack, who wandered the earth with a carved turnip lantern.",
+    "moreInfo": "Modern Halloween blends ancient Celtic harvest festivals, especially Samhain, with later Christian traditions like All Saints’ Day. Over time, it evolved into a community-centered holiday focused on costumes, decorations, and sweets. Today, many people celebrate by visiting pumpkin patches, watching spooky movies, and decorating their homes with playful or eerie themes.",
+    "recipes": [
+      {
+        "title": "Pumpkin Spice Cookies",
+        "details": "Preheat oven to 350°F. Cream butter and sugar, mix in pumpkin puree, then add dry ingredients. Drop spoonfuls on a tray and bake 10–12 minutes."
+      },
+      {
+        "title": "Chocolate Spiderweb Cupcakes",
+        "details": "Bake your favorite chocolate cupcakes. Pipe white circles of icing on top and drag a toothpick outward to create spiderwebs."
+      }
+    ]
+  },
+  {
+    "name": "Christmas",
+    "image": "christmas",
+    "about": "Christmas, celebrated on December 25, is a joyful holiday centered around giving, family, and togetherness. Homes are filled with lights, decorated trees, and cozy gatherings. People exchange gifts, share festive meals, and listen to cheerful carols that fill the air with warmth and joy.",
+    "funFact": "The modern image of Santa Claus in a red suit became popular in the 1800s and was influenced by stories of Saint Nicholas and various European gift-giving traditions.",
+    "moreInfo": "Christmas combines Christian celebrations of the birth of Jesus with older winter customs such as feasting, greenery, and lights. Traditions like decorating a tree, hanging stockings, and exchanging gifts grew over centuries in different regions. Today, many people celebrate Christmas with family dinners, charitable giving, and cozy rituals that make the darkest days of winter feel brighter.",
+    "recipes": [
+      {
+        "title": "Easy Sugar Cookies",
+        "details": "Heat oven to 350°F. Cream butter and sugar, add egg and vanilla, then mix in flour. Roll and cut shapes, bake 8–10 minutes, and decorate with icing."
+      },
+      {
+        "title": "Peppermint Bark",
+        "details": "Melt dark chocolate, pour onto parchment, chill, then spread white chocolate on top. Sprinkle crushed candy canes and chill again before breaking into pieces."
+      }
+    ]
+  },
+  {
+    "name": "Easter",
+    "image": "easter",
+    "about": "Easter is a spring celebration of renewal and joy. Families gather for brunch, decorate eggs in bright colors, and share sweet desserts. It’s a cheerful day filled with hope, laughter, and blooming flowers that mark the season’s new beginnings.",
+    "funFact": "Colorful eggs became part of Easter traditions as symbols of new life and spring, long before chocolate eggs appeared in stores.",
+    "moreInfo": "Easter is celebrated in many Christian communities as the feast of the Resurrection, but it also carries older spring themes of renewal and growth. Customs like egg hunts, baskets, and pastel decorations highlight nature’s return after winter. Families often gather for a special meal, take photos in spring outfits, and enjoy light, bright desserts that match the season.",
+    "recipes": [
+      {
+        "title": "Bright Lemon Bars",
+        "details": "Bake shortbread crust for 15 minutes. Pour lemon filling over crust and bake another 20 minutes. Cool, dust with powdered sugar, and slice."
+      },
+      {
+        "title": "Vanilla Cupcakes",
+        "details": "Beat butter and sugar until fluffy, add eggs and vanilla, then alternate flour and milk. Bake 18–20 minutes until golden and top with frosting."
+      }
+    ]
+  }
+]

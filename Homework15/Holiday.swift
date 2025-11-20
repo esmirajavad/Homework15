@@ -25,18 +25,28 @@
  
  Each of option navigates to a new sheet
  
- Homework15App.swift
+ Helper.swift
 
  */
 
 
-import SwiftUI
 
-@main
-struct Homework15App: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+
+
+import Foundation
+
+struct Recipe: Identifiable, Decodable {
+    let id = UUID()
+    let title: String
+    let details: String
+}
+
+struct Holiday: Identifiable, Decodable {
+    let id = UUID()
+    let name: String
+    let image: String
+    let about: String
+    let funFact: String      // NEW
+    let moreInfo: String     // NEW
+    let recipes: [Recipe]
 }
