@@ -79,7 +79,7 @@ struct ContentView: View {
                         }
                         .frame(maxWidth: .infinity, alignment: .center)
 
-                        // Recipes
+                        // Recipes section
                         Section {
                             Text("Sweet Recipes")
                                 .font(.headline)
@@ -98,7 +98,7 @@ struct ContentView: View {
                     .tabItem { Text(holiday.name) }
                 }
             }
-            // SHEET: Fun Fact (was alert before)
+            // SHEET: Fun Fact
             .sheet(item: $funFactHoliday) { holiday in
                 NavigationStack {
                     ScrollView {
