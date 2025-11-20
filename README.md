@@ -74,11 +74,18 @@ JSON Decoding (Codable)
 
 List & Section layouts
 
+
  File Structure
+ 
 ContentView.swift
+
 Holiday.swift
+
 RecipeDetailView.swift
+
 holidays.json
+
+
 
  Requirements
 
