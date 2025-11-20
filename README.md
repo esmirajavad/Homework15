@@ -1,4 +1,4 @@
-A simple SwiftUI app displaying holidays, images, descriptions, fun facts, and sweet recipes — built for CIS137 iOS/Swift Programming.
+A simple SwiftUI app displaying holidays, images, descriptions, fun facts, and sweet recipes.
 
  Overview
 
